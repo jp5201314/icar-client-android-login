@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+
+    <ImageButton
+        android:id="@+id/ib_login_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@null"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="back"
+        android:src="@drawable/icon_left_arrow_white" />
+
+    <ImageView
+        android:id="@+id/iv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/img_app_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fl_phone_number"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <cn.icarowner.icarowner.view.CleanEditText
+                android:id="@+id/cet_phone_number"
+                android:layout_width="250dp"
+                android:layout_height="36dp"
+                android:background="@drawable/selector_edittext"
+                android:cursorVisible="true"
+                android:drawableEnd="@drawable/icon_clean"
+                android:gravity="center"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:textColor="@drawable/selector_edittext_text_color"
+                android:textColorHint="@color/color_white_ffffff_alpha_60"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/iv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="7dp"
+                android:src="@drawable/icon_phone" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_valid_code"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/et_valid_code"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/selector_edittext"
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:hint="@string/short_message_valid_code"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textColor="@drawable/selector_edittext_text_color"
+                android:textColorHint="@color/color_white_ffffff_alpha_60"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="7dp"
+                    android:src="@drawable/icon_message" />
+
+                <Button
+                    android:id="@+id/bt_obtain_message"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/selector_bg_get_valid_code"
+                    android:text="@string/obtain"
+                    android:textColor="@color/color_black_0e1214"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/text_ffffff_17_alpha_60"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/selector_btn_green"
+            android:text="@string/login" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/icon_copyright" />
+
+</FrameLayout>
+
+

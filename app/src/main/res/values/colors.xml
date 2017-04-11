@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--100%FF
+        95%	F2
+        90%	E6
+        85%	D9
+        80%	CC
+        75%	BF
+        70%	B3
+        65%	A6
+        60%	99
+        55%	8C
+        50%	80
+        45%	73
+        40%	66
+        35%	59
+        30%	4D
+        25%	40
+        20%	33
+        15%	26
+        10%	1A
+        5%	0D
+        0%	00-->
+    <color name="color_transparent">#00000000</color>
+
+
+    <color name="color_white_ffffff_alpha_60">#99FFFFFF</color>
+    <color name="color_white_ffffff">#FFFFFF</color>
+    <color name="color_white_faf9f7">#FAF9F7</color>
+    <color name="color_white_faf9f9">#FAF9F9</color>
+
+    <color name="color_green_d4ebeb">#D4EBEB</color>
+    <color name="color_green_87d0d4">#87d0d4</color>
+    <color name="color_green_aedde1">#AEDDE1</color>
+    <color name="color_green_9ad6d9">#9AD6D9</color>
+    <color name="color_green_3bb4bc">#3BB4BC</color>
+    <color name="color_green_3299a0">#3299a0</color>
+    <color name="color_green_20b279">#20B279</color>
+    <color name="color_green_119863">#119863</color>
+    <color name="color_green_173236">#173236</color>
+
+
+    <color name="color_gray_d8d8d8">#D8D8D8</color>
+    <color name="color_gray_eaeaea">#eaeaea</color>
+    <color name="color_gray_efefef">#efefef</color>
+    <color name="color_gray_c5c5c5">#c5c5c5</color>
+    <color name="color_gray_a5a5a6">#A5A5A6</color>
+    <color name="color_gray_7f8082">#7f8082</color>
+    <color name="color_gray_8b8c8d">#8B8C8D</color>
+    <color name="color_gray_767474">#767474</color>
+    <color name="color_gray_6e6e6f">#6E6E6F</color>
+    <color name="color_gray_666666">#666666</color>
+    <color name="color_gray_5c5d5d">#5C5D5D</color>
+    <color name="color_gray_4f5152">#4f5152</color>
+    <color name="color_gray_3e4143">#3E4143</color>
+    <color name="color_gray_4a5159">#4a5159</color>
+    <color name="color_gray_32393f">#32393f</color>
+
+
+    <color name="color_black_000000_alpha_80">#CC000000</color>
+    <color name="color_black_0e1214">#0E1214</color>
+    <color name="color_black_1b2025">#1B2025</color>
+    <color name="color_black_1e252b">#1E252B</color>
+    <color name="color_black_191e23">#191E23</color>
+
+
+    <color name="color_orange_f0a748">#F0A748</color>
+    <color name="color_orange_d88519">#D88519</color>
+
+
+</resources>
